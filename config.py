@@ -42,11 +42,11 @@ class Config(object):
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","YTRNAME")     
+    DB_NAME = os.environ.get("DB_NAME","GROWTH")     
     DB_URL = os.environ.get("DB_URL","")
  
     # other configs
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/XAt.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5935267941').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001591180536"))
 
@@ -169,11 +169,11 @@ V𝟹.𝟶.𝟶 [STABLE]
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title @Ajeet_bots
+--change-video-title @Ajeet_bots
+--change-audio-title @Ajeet_bots
+--change-subtitle-title @Ajeet_bots
+--change-author @Ajeet_bots`
 
 📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Ajeet_bots
 """
@@ -203,7 +203,7 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Ajeet_bots`
 
 • ❣️ <a href=https://github.com/RknDeveloper>RknDeveloper</a>
 • ❣️ <a href=https://github.com/DigitalBotz>DigitalBotz</a>
-• ❣️ <a href=https://github.com/JayMahakal98>Jay Mahakal</a> """
+• ❣️ <a href=https://github.com/Ajeetx24>𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ</a> """
     # ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
 
     SEND_METADATA = """
@@ -211,17 +211,17 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Ajeet_bots`
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title @Ajeet_bots
+--change-video-title @Ajeet_bots
+--change-audio-title @Ajeet_bots
+--change-subtitle-title @Ajeet_bots
+--change-author @Ajeet_bots`
 
 📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Ajeet_bots
 """
     
     RKN_PROGRESS = """<b>\n
-╭━━━━❰RKN PROCESSING...❱━➣
+╭━━━━❰AJEETBOTS PROCESSING...❱━➣
 ┣⪼ 🗃️ ꜱɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ ᴅᴏɴᴇ : {0}%
 ┣⪼ 🚀 ꜱᴩᴇᴇᴅ: {3}/s
