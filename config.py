@@ -34,8 +34,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "9328697")
-    API_HASH = os.environ.get("API_HASH", "9844b5bade2267c9a175a1dc72952e76")
+    API_ID = os.environ.get("API_ID", "24005775")
+    API_HASH = os.environ.get("API_HASH", "e2593d8b0f5f52798926619defc21905")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
     # premium account string session required 😢 
@@ -48,7 +48,7 @@ class Config(object):
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/XAt.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '5935267941').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001591180536"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002400433284"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
@@ -199,7 +199,7 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Ajeet_bots`
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
     
-» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/DigitalBotz/Digital-Rename-Bot>Digital-Rename-Bot</a>
+» 𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘 : <a href=https://github.com/Ajeetx24/Digital-Rename-Bot>Digital-Rename-Bot</a>
 
 • ❣️ <a href=https://github.com/RknDeveloper>RknDeveloper</a>
 • ❣️ <a href=https://github.com/DigitalBotz>DigitalBotz</a>
